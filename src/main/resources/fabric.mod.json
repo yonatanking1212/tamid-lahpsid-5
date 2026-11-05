@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "tamidlahapsid",
+  "version": "${version}",
+  "name": "Tamid Lahapsid",
+  "description": "Client mod with a Bot (auto clicker), Aim tracker, HUD and a custom GUI.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.tamid.lahapsid.TamidClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
